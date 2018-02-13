@@ -1,0 +1,5 @@
+.landing_page {
+  background-color: grey ;
+  background-image: url(landing.jpg);
+  min-height: 100% ;
+}
