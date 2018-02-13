@@ -1,52 +1,103 @@
+<!-- <!DOCTYPE>
+
+<html>
+
+<head>
+  <title>Mindweaver</title>
+  <script>
+  .landing_page{
+    background-color: grey ;
+    background-image: url(landing.jpg);
+    min-height: 100% ;
+  }
+  </script>
+</head>
+
+<body>
+
+  <div class="landing_page">
+    <span>Land here</span>
+  </div>
+  <div class="about">
+    <span>what we do!</span>
+  </div>
+</body>
+
+</html -->
+
 <!DOCTYPE html>
 <html>
 <head>
 <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-.landing_page {
-
-        background-image: url("landing.jpg");
-        height: 100%;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-}
-.who {
-  background-image: url("4083.jpg");
-  height: 100% ;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.what{
-  color: #777 ;
-  background-color: white ;
-  padding: 50 80 ;
-  text-align: center;
-}
-/* .landing_page span h1 {
-  color: white ;
-  position: absolute;
-  text-align: center;
-  display: block;
-  top: 50% ;
-
-} */
-</style>
-
+<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
 
-
+<!-- headeer -->
 <div class="landing_page">
-  <span><h1>Land Here !!</h1></span>
+  <span><h1>WEB GL HERE !</h1></span>
 </div>
+
 <div class="what">
-    <h1>NOT QUITE CLEAR!!</h1>
+    <h1>WHAT WE DO</h1>
 </div>
+
+
+
+    <div class="columns">
+
+
+<!--api-->
+      <div class="api" ontouchstart="this.classList.toggle('hover');">
+  <div class="flipper">
+    <div class="front">
+      <span class="name">api</span>
+    </div>
+    <div class="back">
+      <div class="back-logo"></div>
+      <div class="back-title">api content</div>
+      <p> details </p>
+    </div>
+  </div>
+</div>
+</div>
+<div class="columns">
+<!--permaculture-->
+<div class="permaculture" ontouchstart="this.classList.toggle('hover');">
+<div class="flipper">
+<div class="front">
+<h3 class="name">permaculture</h3>
+</div>
+<div class="back">
+<div class="back-logo"></div>
+<div class="back-title">permaculture content</div>
+<p> details </p>
+</div>
+</div>
+</div>
+
+</div>
+
+<div class="columns">
+<!--apps-->
+
+
+<div class="apps" ontouchstart="this.classList.toggle('hover');">
+<div class="flipper">
+<div class="front">
+<h4 class="name">apps</h4>
+</div>
+<div class="back">
+<div class="back-logo"></div>
+<div class="back-title">apps content</div>
+<p> details </p>
+</div>
+</div>
+</div>
+
+</div>
+
+
 <div class="who"></div>
 <div class="join"></div>
 <div class="reach"></div>
