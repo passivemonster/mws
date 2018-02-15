@@ -1,107 +1,205 @@
-<!-- <!DOCTYPE>
-
-<html>
-
-<head>
-  <title>Mindweaver</title>
-  <script>
-  .landing_page{
-    background-color: grey ;
-    background-image: url(landing.jpg);
-    min-height: 100% ;
-  }
-  </script>
-</head>
-
-<body>
-
-  <div class="landing_page">
-    <span>Land here</span>
-  </div>
-  <div class="about">
-    <span>what we do!</span>
-  </div>
-</body>
-
-</html -->
-
 <!DOCTYPE html>
 <html>
+
 <head>
-<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-<link rel="stylesheet" type="text/css" href="main.css">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="main.css">
 </head>
+
 <body>
 
-<!-- headeer -->
-<div class="landing_page">
-  <span><h1>WEB GL HERE !</h1></span>
-</div>
+  <div class="nav">
+    <ul class="dot-nav">
+      <li>
+        <a href="#one" class="active" scroll-data="one"></a>
+        <span><b>Section One</b>
+        Test Heading here</span>
+      </li>
+      <li>
+        <a href="#two" scroll-data="two"></a>
+        <span><b>Title</b>
+        Subtitle</span>
+      </li>
+      <li>
+        <a href="#three" scroll-data="three"></a>
+        <span><b>Title2</b>
+        Subtitle2</span>
+      </li>
+        <li>
+        <a href="#four" scroll-data="four"></a>
+        <span><b>Title3</b>
+        Subtitle3</span>
+      </li>
+      <li>
+        <a href="#five" scroll-data="five"></a>
+        <span><b>Title4</b>
+        Subtitle4</span>
+      </li>
 
-<div class="what">
-    <h1>WHAT WE DO</h1>
-</div>
-
-
-
-    <div class="columns">
-
-
-<!--api-->
-      <div class="api" ontouchstart="this.classList.toggle('hover');">
-  <div class="flipper">
-    <div class="front">
-      <span class="name">api</span>
-    </div>
-    <div class="back">
-      <div class="back-logo"></div>
-      <div class="back-title">api content</div>
-      <p> details </p>
-    </div>
+    </ul>
   </div>
-</div>
-</div>
-<div class="columns">
-<!--permaculture-->
-<div class="permaculture" ontouchstart="this.classList.toggle('hover');">
-<div class="flipper">
-<div class="front">
-<h3 class="name">permaculture</h3>
-</div>
-<div class="back">
-<div class="back-logo"></div>
-<div class="back-title">permaculture content</div>
-<p> details </p>
-</div>
-</div>
-</div>
 
-</div>
+  <div class="main">
+    <section id="one" data-anchor="one" class="page-block">
+      <div class="content">
+        <h1>Title One</h1>
+        <h3>SubTitle One</h3>
 
-<div class="columns">
-<!--apps-->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut libero vel libero efficitur ultricies. Phasellus at mi urna. Suspendisse vel erat ut ligula vulputate dapibus. Morbi ullamcorper efficitur aliquam. Mauris at eleifend lorem, eget rhoncus nisi. Phasellus viverra aliquet suscipit. Proin facilisis massa ac malesuada dapibus. Nam vulputate dui ex, et efficitur est varius non. Ut in metus scelerisque sem sollicitudin sodales at ac mauris. Mauris ornare in nisl ac rhoncus. Donec porta, ligula hendrerit gravida fringilla, elit lorem placerat ante, sed efficitur libero odio id metus. Quisque vitae enim at nulla pellentesque lobortis.</p>
+  <p>In aliquam nulla tellus, vel dictum velit eleifend sit amet. Vivamus sed varius orci. Cras eget massa ullamcorper, sollicitudin orci et, lacinia velit. Sed nisi leo, vulputate et commodo quis, vehicula non urna. Duis erat metus, suscipit a blandit eu, ultrices sit amet risus. Phasellus feugiat erat odio, semper congue nibh vehicula ac. Cras tincidunt enim vel lorem euismod, a facilisis turpis ornare. Nulla pharetra, risus posuere pulvinar tempus, ipsum lectus elementum nunc, vel bibendum tellus justo eu ipsum. Praesent diam erat, ultrices ac turpis eu, pulvinar consequat tellus.</p>
+  <p>Integer lorem lectus, scelerisque at molestie id, sollicitudin nec nisi. Aenean consectetur maximus risus, sed faucibus tellus condimentum sed. Etiam non pharetra sapien. Nullam in mi consequat justo facilisis semper at sed erat. Curabitur elit metus, gravida eu nulla nec, imperdiet fermentum sapien. Quisque tincidunt pharetra consectetur. Suspendisse tincidunt dictum purus, in iaculis dui maximus eu. Vestibulum nibh eros, venenatis sit amet commodo ac, accumsan nec lorem. Donec rutrum ex convallis, lacinia felis auctor, pulvinar nisl.</p>
+      </div>
+    </section>
+    <section id="two" data-anchor="two" class="page-block">
+      <div class="content">
+        <h1>Title Two</h1>
+        <h3>Subtitle Two</h3>
+        <p>In aliquam nulla tellus, vel dictum velit eleifend sit amet. Vivamus sed varius orci. Cras eget massa ullamcorper, sollicitudin orci et, lacinia velit. Sed nisi leo, vulputate et commodo quis, vehicula non urna. Duis erat metus, suscipit a blandit eu, ultrices sit amet risus. Phasellus feugiat erat odio, semper congue nibh vehicula ac. Cras tincidunt enim vel lorem euismod, a facilisis turpis ornare. Nulla pharetra, risus posuere pulvinar tempus, ipsum lectus elementum nunc, vel bibendum tellus justo eu ipsum. Praesent diam erat, ultrices ac turpis eu, pulvinar consequat tellus.</p>
+  <p>Integer lorem lectus, scelerisque at molestie id, sollicitudin nec nisi. Aenean consectetur maximus risus, sed faucibus tellus condimentum sed. Etiam non pharetra sapien. Nullam in mi consequat justo facilisis semper at sed erat. Curabitur elit metus, gravida eu nulla nec, imperdiet fermentum sapien. Quisque tincidunt pharetra consectetur. Suspendisse tincidunt dictum purus, in iaculis dui maximus eu. Vestibulum nibh eros, venenatis sit amet commodo ac, accumsan nec lorem. Donec rutrum ex convallis, lacinia felis auctor, pulvinar nisl.</p>
+      </div>
+    </section>
+    <section id="three" data-anchor="three" class="page-block">
+      <div class="content">
+        <h1>Title Three</h1>
+        <h3>Subtitle Three</h3>
+        <p>In aliquam nulla tellus, vel dictum velit eleifend sit amet. Vivamus sed varius orci. Cras eget massa ullamcorper, sollicitudin orci et, lacinia velit. Sed nisi leo, vulputate et commodo quis, vehicula non urna. Duis erat metus, suscipit a blandit eu, ultrices sit amet risus. Phasellus feugiat erat odio, semper congue nibh vehicula ac. Cras tincidunt enim vel lorem euismod, a facilisis turpis ornare. Nulla pharetra, risus posuere pulvinar tempus, ipsum lectus elementum nunc, vel bibendum tellus justo eu ipsum. Praesent diam erat, ultrices ac turpis eu, pulvinar consequat tellus.</p>
+  <p>Integer lorem lectus, scelerisque at molestie id, sollicitudin nec nisi. Aenean consectetur maximus risus, sed faucibus tellus condimentum sed. Etiam non pharetra sapien. Nullam in mi consequat justo facilisis semper at sed erat. Curabitur elit metus, gravida eu nulla nec, imperdiet fermentum sapien. Quisque tincidunt pharetra consectetur. Suspendisse tincidunt dictum purus, in iaculis dui maximus eu. Vestibulum nibh eros, venenatis sit amet commodo ac, accumsan nec lorem. Donec rutrum ex convallis, lacinia felis auctor, pulvinar nisl.</p>
+      </div>
+    </section>
+    <section id="four" data-anchor="four" class="page-block">
+      <div class="content">
+        <h1>Title Four</h1>
+        <h3>Subtitle Four</h3>
+        <p>In aliquam nulla tellus, vel dictum velit eleifend sit amet. Vivamus sed varius orci. Cras eget massa ullamcorper, sollicitudin orci et, lacinia velit. Sed nisi leo, vulputate et commodo quis, vehicula non urna. Duis erat metus, suscipit a blandit eu, ultrices sit amet risus. Phasellus feugiat erat odio, semper congue nibh vehicula ac. Cras tincidunt enim vel lorem euismod, a facilisis turpis ornare. Nulla pharetra, risus posuere pulvinar tempus, ipsum lectus elementum nunc, vel bibendum tellus justo eu ipsum. Praesent diam erat, ultrices ac turpis eu, pulvinar consequat tellus.</p>
+  <p>Integer lorem lectus, scelerisque at molestie id, sollicitudin nec nisi. Aenean consectetur maximus risus, sed faucibus tellus condimentum sed. Etiam non pharetra sapien. Nullam in mi consequat justo facilisis semper at sed erat. Curabitur elit metus, gravida eu nulla nec, imperdiet fermentum sapien. Quisque tincidunt pharetra consectetur. Suspendisse tincidunt dictum purus, in iaculis dui maximus eu. Vestibulum nibh eros, venenatis sit amet commodo ac, accumsan nec lorem. Donec rutrum ex convallis, lacinia felis auctor, pulvinar nisl.</p>
+      </div>
+    </section>
+    <section id="five" data-anchor="five" data-anchor="one" class="page-block">
+      <div class="content">
+        <h1>Title Five</h1>
+        <h3>Subtitle Five</h3>
+        <p>In aliquam nulla tellus, vel dictum velit eleifend sit amet. Vivamus sed varius orci. Cras eget massa ullamcorper, sollicitudin orci et, lacinia velit. Sed nisi leo, vulputate et commodo quis, vehicula non urna. Duis erat metus, suscipit a blandit eu, ultrices sit amet risus. Phasellus feugiat erat odio, semper congue nibh vehicula ac. Cras tincidunt enim vel lorem euismod, a facilisis turpis ornare. Nulla pharetra, risus posuere pulvinar tempus, ipsum lectus elementum nunc, vel bibendum tellus justo eu ipsum. Praesent diam erat, ultrices ac turpis eu, pulvinar consequat tellus.</p>
+  <p>Integer lorem lectus, scelerisque at molestie id, sollicitudin nec nisi. Aenean consectetur maximus risus, sed faucibus tellus condimentum sed. Etiam non pharetra sapien. Nullam in mi consequat justo facilisis semper at sed erat. Curabitur elit metus, gravida eu nulla nec, imperdiet fermentum sapien. Quisque tincidunt pharetra consectetur. Suspendisse tincidunt dictum purus, in iaculis dui maximus eu. Vestibulum nibh eros, venenatis sit amet commodo ac, accumsan nec lorem. Donec rutrum ex convallis, lacinia felis auctor, pulvinar nisl.</p>
+      </div>
+    </section>
 
 
-<div class="apps" ontouchstart="this.classList.toggle('hover');">
-<div class="flipper">
-<div class="front">
-<h4 class="name">apps</h4>
-</div>
-<div class="back">
-<div class="back-logo"></div>
-<div class="back-title">apps content</div>
-<p> details </p>
-</div>
-</div>
-</div>
 
-</div>
+  </div>
+
+  <!-- header -->
+  <div class="landing_page">
+    <span><h1>WEB GL HERE !</h1></span>
+  </div>
+
+  <div class="what">
+    <h1>WHAT WE DO</h1>
+  </div>
+
+  <section id="portfolio" style="margin-top:20px; margin-bottom:50px;">
+    <div class="container">
+      <div class="row">
+        <div class="col things_we_do" >
+
+          <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper">
+              <div class="front">
+                <h1>API dev and maintain</h1>
+              </div>
+              <div class="back">
+                <div class="back-title">Content in Here!</div>
+                <p>Mozilla Web Developer, MooTools & jQuery Consultant, MooTools Core Developer, Javascript Fanatic, CSS Tinkerer, PHP Hacker, and web lover.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col things_we_do">
+          <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper">
+              <div class="front">
+                <h1>Application dev</h1>
+              </div>
+              <div class="back">
+                <div class="back-title">Content in Here!</div>
+                <p>Mozilla Web Developer, MooTools & jQuery Consultant, MooTools Core Developer, Javascript Fanatic, CSS Tinkerer, PHP Hacker, and web lover.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col things_we_do">
+          <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper">
+              <div class="front">
+                <h1>permaculture</h1>
+              </div>
+              <div class="back">
+                <div class="back-title">Content in Here!</div>
+                <p>Mozilla Web Developer, MooTools & jQuery Consultant, MooTools Core Developer, Javascript Fanatic, CSS Tinkerer, PHP Hacker, and web lover.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script>
+  $('.dot-nav a').on('click', function() {
+
+     var scrollAnchor = $(this).attr('scroll-data') ;
+     // console.log("scrollAnchor= "+scrollAnchor);
+
+    var p = $("section[data-anchor='" + scrollAnchor +"']");
+    // console.log(p) ;
+    var offset = p.offset();
+    // console.log(offset) ;
+    var scrollPoint = offset.top ;
+   $('html').animate({
+               scrollTop: scrollPoint
+                 }, 2000);
+             });
 
 
-<div class="who"></div>
-<div class="join"></div>
-<div class="reach"></div>
 
+  $(window).scroll(function() {
+      var windscroll = $(window).scrollTop();
+      // console.log(windscroll) ;
+      if (windscroll >= 100) {
+
+          $('.main section').each(function(i) {
+              if ($(this).position().top <= windscroll) {
+                  console.log($(this)) ;
+                  $('.dot-nav a.active').removeClass('active');
+                  $('.dot-nav a').eq(i).addClass('active');
+              }
+          });
+
+      } else {
+
+
+          $('dot-nav a.active').removeClass('active');
+          $('dot-nav a:first').addClass('active');
+      }
+
+  });
+  </script>
+
+
+  <!-- Optional Bootstrap JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </body>
+
 </html>
