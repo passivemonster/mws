@@ -20,9 +20,9 @@
   background-size: cover;
 }
 /* nav included */
-body {
+/* body {
   background-color: #aaa;
-}
+} */
 
 .main {
   height: 100%;
@@ -183,19 +183,7 @@ p {
 }
 
 #five {
-  background-color: green;
-}
-
-#six {
-  background-color:violet;
-}
-
-#seven {
-  background-color:pink;
-}
-
-#eight {
-  background-color:white;
+  background-color: white;
 }
 /* what we do...*/
 
